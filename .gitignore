@@ -1,0 +1,30 @@
+# Build directories
+/obj/
+/build/
+/build-*/
+/.c-port-build*/
+/.c-port-final-build/
+/.wled-full-c-build/
+
+# Compiled output (keep vendor libraries)
+*.o
+*.obj
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.exe
+
+# Local IDE workspace and caches
+/.mrs/
+/.cache/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+Thumbs.db
+.DS_Store
